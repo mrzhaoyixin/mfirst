@@ -1,13 +1,13 @@
 import db,time
 import paramiko
 from ftplib import FTP_TLS
-FTPSERVERADDR = "111.63.135.179"
+FTPSERVERADDR = ""
 def getTimestamp():
   return time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
   
 def send2FTP(path,filename):
   tran = paramiko.Transport((FTPSERVERADDR, 60522))
-  #tran.connect(username="boce", password='')
+  #tran.connect(username="", password='')
   private = paramiko.RSAKey.from_private_key_file('/data/data/com.termux/files/home/.ssh/id_rsa')
   tran.connect(username="boce", pkey=private)
   sftp = paramiko.SFTPClient.from_transport(tran)
