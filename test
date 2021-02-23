@@ -1,0 +1,18 @@
+SELECT * FROM origin_url WHERE type LIKE 'douyin_vod' AND timestamp BETWEEN '2021-01-29 10:51:40' AND '2021-01-29 11:11:40';
+http://v5.douyinvod.com/e1a999f216fc84e58ff26dddd8650fc2/601382f7/video/tos/cn/tos-cn-ve-15/181e9adfd3704fc6bebf4de8b4fbf00c/?a=1128&br=1365&bt=455&cd=0%257C0%257C0&ch=5&cr=3&cs=&cv=1&dr=0&ds=3&er=&l=202101291035180102040500740938E1A5&lr=all&mime_type=video_mp4&pl=0&qs=15&rc=M3I5eW45d3FmMzMzNmkzM0ApPDpmOTs6NTxpN2dlaGQ6O2cpaGxuZDFwekBzMV5kYWovLjRgLS0xLS9zczE1MC9eYF5gMGFjMzBiLmE6Y2pxK2BtYmJeYA%253D%253D&vl=&vr= <class 'str'>
+2021-01-29 10:59:19 <class 'datetime.datetime'>
+douyin <class 'str'>
+101.26.39.97 <class 'str'>
+80 <class 'str'>
+v5.douyinvod.com <class 'str'>
+douyin_vod <class 'str'>
+SELECT * FROM origin_url WHERE type LIKE 'douyin_vod' AND timestamp BETWEEN '2021-01-29 10:51:40' AND '2021-01-29 11:11:40';
+http://v5.douyinvod.com/e1a999f216fc84e58ff26dddd8650fc2/601382f7/video/tos/cn/tos-cn-ve-15/181e9adfd3704fc6bebf4de8b4fbf00c/?a=1128&br=1365&bt=455&cd=0%257C0%257C0&ch=5&cr=3&cs=&cv=1&dr=0&ds=3&er=&l=202101291035180102040500740938E1A5&lr=all&mime_type=video_mp4&pl=0&qs=15&rc=M3I5eW45d3FmMzMzNmkzM0ApPDpmOTs6NTxpN2dlaGQ6O2cpaGxuZDFwekBzMV5kYWovLjRgLS0xLS9zczE1MC9eYF5gMGFjMzBiLmE6Y2pxK2BtYmJeYA%253D%253D&vl=&vr= <class 'str'>
+2021-01-29 10:59:19 <class 'datetime.datetime'>
+douyin <class 'str'>
+101.26.39.97 <class 'str'>
+80 <class 'str'>
+v5.douyinvod.com <class 'str'>
+douyin_vod <class 'str'>
+() <class 'tuple'>
+success
