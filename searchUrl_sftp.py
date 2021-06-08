@@ -1,7 +1,7 @@
 import db,time
 import paramiko
 from ftplib import FTP_TLS
-FTPSERVERADDR = "111.63.135.179"
+FTPSERVERADDR = "ip"
 def getTimestamp():
   return time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
   
