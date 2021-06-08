@@ -22,8 +22,8 @@ def search(vtype):
   db=get_conn()
   cursor = db.cursor()
   starttime,stoptime = getsqlselecttime()
-  sql = "SELECT type,origin_url,domain  FROM origin_url WHERE type LIKE '%s' ORDER BY timestamp DESC LIMIT 30;" % (vtype)
-  #sql = "SELECT type,origin_url,domain FROM origin_url WHERE type LIKE '%s' AND timestamp BETWEEN '%s' AND '%s';" % (vtype,starttime,stoptime)
+  sql = "SELECT type,domain,origin_url  FROM origin_url WHERE type LIKE '%s' ORDER BY timestamp DESC LIMIT 50;" % (vtype)
+  #sql = "SELECT type,domain,origin_url FROM origin_url WHERE type LIKE '%s' AND timestamp BETWEEN '%s' AND '%s';" % (vtype,starttime,stoptime)
   print(sql)
   try:
     count = cursor.execute(sql)
